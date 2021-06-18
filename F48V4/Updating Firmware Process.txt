@@ -1,0 +1,20 @@
+To upgrade the F48V4 firmware:
+
+1. Download the chosen F48V4 firmware fl3 file. This file will be named Falcon_48_Firmware_<build>.fl3
+2. Either
+	- Place the file onto an SD card and place that SD card in the SD slot on the controller and reboot 
+	  the conntroller. When the controller boots it will copy the file into flash ram on the board. Remove 
+	  the SD card when done and reboot the controller; or
+	- Navigate to the settings page on the controller web menu and select the "Update Firmware" link and 
+	  upload the downloaded fl3 file. Once done the controller will reboot.
+3. During the reboot the controller will validate the firmware. If it is incomplete or invalid the controller 
+   will tell you and delete the firmware without changing anything.
+4. If valid the controller will upgrade the firmware in generally the following order
+	- CPU 1
+	- CPU 2
+	- ESP (the wifi module code)
+	- ESP Files (the wifi web interface)
+5. Then it will erase the firmware files from flash ram (so it doesnt keep doing the upgrade)
+6. If successful the OLED screen and the status web page should show the correct build number. To check the 
+   ESP (wifi) updated you will need to access the wifi page. If you dont use the wifi interface then you can 
+   ignore this.
