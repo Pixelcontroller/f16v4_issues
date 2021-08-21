@@ -1,0 +1,15 @@
+Build 1: 2021-08-17
+    - Initial release
+    
+Build 2: 2021-08-18
+    - Fix : SSID password minimum should be 8 characters otherwise password is ignored. This is as per the specification.
+    - Fix : Wifi upload of MP3 files upload but conversion fails. Upload of WAV works or MP3 over wired connection.
+    - Fix : When booted without wired connection wifi does not work correctly.
+
+Build 3: 2021-08-
+    - Fix : Schedule validation of days of the week gets confused and disables/enables Save button incorrectly.
+    - Fix : WAV files converted on controller cannot be played on PCs.
+    - Fix : Adjust wifi strength thresholds to make Wifi strength more realistic
+    - Fix : Controller stops responding while converting MP3 to WAV
+    - Fix : Indicator LEDs reversed on F48
+    
