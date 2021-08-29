@@ -17,5 +17,8 @@ Build 3: 2021-08-21
     - Fix : Move wifi reboot to settings screen as it was confusing on the network screen.
     
 Build 4: 2021-08-
+    - Enh : Add ping button to UI to test access to gateway/DNS/Time Server
     - Fix : Disable reboot wifi when wifi is disabled.
+    - Fix : FPP Connect over WiFi not working.
+    - Fix : FPP Connect Add FPP will not add a Falcon V4.
     
