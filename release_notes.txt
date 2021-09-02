@@ -17,8 +17,13 @@ Build 3: 2021-08-21
     - Fix : Move wifi reboot to settings screen as it was confusing on the network screen.
     
 Build 4: 2021-08-
-    - Enh : Add ping button to UI to test access to gateway/DNS/Time Server
+    - Enh : Add ping button to UI to test access to gateway/DNS/Time Server.
+    - Enh : Add a playlist and FSEQ analysis tool to this repository. 
     - Fix : Disable reboot wifi when wifi is disabled.
     - Fix : FPP Connect over WiFi not working.
     - Fix : FPP Connect Add FPP will not add a Falcon V4.
+    - Fix : A number of issues relating to FPP connect. This requires 2021.28 or later of xLights.
+    - Fix : Prevent Falcon hotspot SSID clashing with any seen network. If it does hotspot wont start.
+    - Fix : On web interfaces in some circumstances 1:00 may be displayed as 0:60.
+    - Fix : Status page player can hang if FSEQ references audio not present on the SD card.
     
