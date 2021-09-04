@@ -16,7 +16,7 @@ Build 3: 2021-08-21
     - Fix : Race condition on bootup which could hang the controller.
     - Fix : Move wifi reboot to settings screen as it was confusing on the network screen.
     
-Build 4: 2021-08-
+Build 4: 2021-09-05
     - Enh : Add ping button to UI to test access to gateway/DNS/Time Server.
     - Enh : Add a playlist and FSEQ analysis tool to this repository. 
     - Fix : Disable reboot wifi when wifi is disabled.
@@ -26,4 +26,12 @@ Build 4: 2021-08-
     - Fix : Prevent Falcon hotspot SSID clashing with any seen network. If it does hotspot wont start.
     - Fix : On web interfaces in some circumstances 1:00 may be displayed as 0:60.
     - Fix : Status page player can hang if FSEQ references audio not present on the SD card.
+    - Fix : When OLED asleep boot button has to be pressed twice to enable/disable test mode
+    - Fix : OLED jitters on F48
+    - Fix : Support common audio rates up to 48K rather than just 44100
+    - Fix : Copy row on E131 page does not copy number of interfaces
+    - Fix : E131 Add/copy row should disable if all possible universes are defined
     
+Build 5: 
+
+
