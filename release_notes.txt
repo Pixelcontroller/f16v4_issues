@@ -32,10 +32,14 @@ Build 4: 2021-09-05
     - Fix : Copy row on E131 page does not copy number of interfaces
     - Fix : E131 Add/copy row should disable if all possible universes are defined
     
-Build 5: 2021-
+Build 5: 2021-09-16
     - Enh : Add a Smart Remote Test Mode like number but showing the Smart Remote Letter and port
     - Enh : Make number test mode ignore the configured pixels on a port
-    - Enh : Display file sizes on file manager page
+    - Enh : Display file sizes and timestamps on file manager page
     - Enh : Add button to settings page to immediately retrieve the time from the time server
     - Fix : Firmware upload does not work behind a proxy
-
+    - Fix : Address some issues with xLights upload. Requires xLights 2021.29 or later
+    - Fix : Where largest channel used is not on the first string on the port it is not detected correctly 
+            resulting in output issues - particularly in player mode
+    - Fix : Local ports on F48 dont work in dumb mode when controller is in 4 SR + 4 SR mode
+    
