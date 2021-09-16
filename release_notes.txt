@@ -32,6 +32,10 @@ Build 4: 2021-09-05
     - Fix : Copy row on E131 page does not copy number of interfaces
     - Fix : E131 Add/copy row should disable if all possible universes are defined
     
-Build 5: 
-
+Build 5: 2021-
+    - Enh : Add a Smart Remote Test Mode like number but showing the Smart Remote Letter and port
+    - Enh : Make number test mode ignore the configured pixels on a port
+    - Enh : Display file sizes on file manager page
+    - Enh : Add button to settings page to immediately retrieve the time from the time server
+    - Fix : Firmware upload does not work behind a proxy
 
