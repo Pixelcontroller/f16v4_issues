@@ -43,3 +43,13 @@ Build 5: 2021-09-16
             resulting in output issues - particularly in player mode
     - Fix : Local ports on F48 dont work in dumb mode when controller is in 4 SR + 4 SR mode
     
+Build 6: 2021-09-21
+    - Fix : Issues with extracting audio file name from FSEQ file
+    - Fix : Serial port page make valid does not take into account first channel if settings
+    - Fix : copy, cut, paste keyboard keys dont work on web pages
+    - Fix : Port testing does not work correctly where first channel is not 1
+    - Fix : When switching to E131 allocate at least enough universes for all configured outputs
+    - Fix : Add a workaround for a very rare hang we are occasionally seeing in pixel output such that the controller will auto resume 
+            after 200ms. We do not have an exact cause but factors such as using DDP and smart remotes seem to be common factors but the 
+            rareness of the hang has made it really hard to be definite that any or all of these are actually associated with it.
+
