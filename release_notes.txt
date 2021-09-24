@@ -53,3 +53,8 @@ Build 6: 2021-09-21
             after 200ms. We do not have an exact cause but factors such as using DDP and smart remotes seem to be common factors but the 
             rareness of the hang has made it really hard to be definite that any or all of these are actually associated with it.
 
+Build 7: 2021-09-
+    - Fix : Controller hangs on boot or after some configuration changes ... particularly where first channel was not 1
+    - Fix : Pixel output stops if you go into network menu and out again without changing anything
+    - Fix : Smart Receiver test mode does not work if no smart remotes are defined
+    - Fix : Board in 16+16+2SR does not allow adding smart remotes to port 33-36
