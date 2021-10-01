@@ -62,3 +62,12 @@ Build 7: 2021-09-26
     - Fix : Explain why ping is disabled on WIFI settings which accessing controller over wired connection
     - Fix : Fix controller discovery inconsistencies. Note this means in E131 mode controller discovery will NOT discover the controller unless
             artnet is in use.
+
+Build 8: 2021-10-
+    - Enh : Flash LED 2 when an input pin is fired
+    - Enh : Add a reset to factory default button on the settings page
+    - Fix : Smart remotes unresponsive in some configurations
+    - Fix : When controller does not have internet access uploads dont take immediate effect unless saved again
+    - Fix : Adding a virtual string to last port on a smart remote erases the pixel ports web page
+    - Fix : Fix grouped pixel handling
+
