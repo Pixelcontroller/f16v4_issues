@@ -73,4 +73,10 @@ Build 8: 2021-10-03
     - Fix : Fix test mode crashes controller if serial port config is invalid
     - Fix : Avoid some situations where invalid configuration would crash controller on boot and require a reset
     
-Build 9: 202
+Build 9: 2021-10-06
+    - Enh : Add a FPP Sync monitor tool to the repository for monitoring FPP Sync traffic
+    - Fix : Playback of sequences not respecting frame rates other than 50ms
+    - Fix : Master mode sending invalid sync packets
+    - Fix : Make it clearer in pixel types compatibility for SK6812 RGB and RGBW
+    
+Build 10: 202
