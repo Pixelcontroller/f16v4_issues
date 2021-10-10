@@ -79,4 +79,8 @@ Build 9: 2021-10-06
     - Fix : Master mode sending invalid sync packets
     - Fix : Make it clearer in pixel types compatibility for SK6812 RGB and RGBW
     
-Build 10: 202
+Build 10: 2021-10-10
+    - Fix : Hang reading some animation FSEQ files
+    - Fix : When using wifi visualiser scrambles pixel ports
+    - Fix : Wifi wont get date time and when it does if the time zone is negative it is updated incorrectly
+    - Fix : Debug log wont download over wifi.
