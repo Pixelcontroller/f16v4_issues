@@ -84,3 +84,9 @@ Build 10: 2021-10-10
     - Fix : When using wifi visualiser scrambles pixel ports
     - Fix : Wifi wont get date time and when it does if the time zone is negative it is updated incorrectly
     - Fix : Debug log wont download over wifi.
+    
+Build 11: 2021-10-18
+    - Fix : If running test and configuring string ports make sure the test channels are updated
+    - Fix : Fix FSEQ zlib over-read when playing back sequences. Was generating the warning at the end of a sequence
+    - Fix : WAV upload incorrectly reports WAV file as invalid when uploading via file manager
+    
