@@ -90,3 +90,8 @@ Build 11: 2021-10-18
     - Fix : Fix FSEQ zlib over-read when playing back sequences. Was generating the warning at the end of a sequence
     - Fix : WAV upload incorrectly reports WAV file as invalid when uploading via file manager
     
+Build 12: 2021-10-31
+    - Enh : Add a tool to the repository for dumping most of the saved JSON file in an easy to read format.
+    - Fix : FPP Sync over wifi not working
+    - Fix : When scheduled playlist does not actually exist SD card read/writes become unstable
+    
