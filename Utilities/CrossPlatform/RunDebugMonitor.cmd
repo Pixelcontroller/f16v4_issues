@@ -1,0 +1,3 @@
+python DebugMonitor.py
+
+pause
