@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "FSEQDump/1.0.0": {
+      "DumpFalconJSON/1.0.0": {
         "runtime": {
-          "FSEQDump.dll": {}
+          "DumpFalconJSON.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "FSEQDump/1.0.0": {
+    "DumpFalconJSON/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
