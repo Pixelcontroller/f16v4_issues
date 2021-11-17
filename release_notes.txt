@@ -95,7 +95,7 @@ Build 12: 2021-10-31
     - Fix : FPP Sync over wifi not working
     - Fix : When scheduled playlist does not actually exist SD card read/writes become unstable
     
-Build 13: 2021-11-??
+Build 13: 2021-11-17
     - Enh : Add network debug client to repository
     - Fix : Handle FSEQ files with > 256 compression blocks
     - Fix : Address issues with Wifi web confusing itself when multiple pages are open
@@ -105,6 +105,8 @@ Build 13: 2021-11-??
     - Fix : APA109 pixels not working on smart remotes
     - Fix : 4 channel pixels show wrong end channel in pixel ports page
     - Fix : Handle off WAV file bitrates better including online tool able to generate different bitrates
+
+Build 14 : 202x-xx-xx
 
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
