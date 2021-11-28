@@ -106,12 +106,14 @@ Build 13: 2021-11-17
     - Fix : 4 channel pixels show wrong end channel in pixel ports page
     - Fix : Handle off WAV file bitrates better including online tool able to generate different bitrates
 
-Build 14 : 202x-xx-xx
+Build 14 : 2021-11-28
     - Enh : Add a 4 channel pixel aware test mode
     - Fix : Proper fix for FSEQ reading issues and scratchy audio
     - Fix : TLS3001 not working
     - Fix : SK9822 not working
     - Fix : Wifi on some browsers truncating messages and returning JSON parsing errors
+
+Build 15 : 202x-xx-xx
 
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
