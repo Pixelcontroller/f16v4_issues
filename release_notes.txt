@@ -113,7 +113,15 @@ Build 14 : 2021-11-28
     - Fix : SK9822 not working
     - Fix : Wifi on some browsers truncating messages and returning JSON parsing errors
 
-Build 15 : 202x-xx-xx
+Build 15 : 2022-02-19
+    - Fix : At large pixel counts and high frame rates the controller tears frames
+    - Fix : Address reliability issues of firmware upload over wifi
+    - Fix : FPP not detecting controller over wifi
+    - Fix : Try to improve time keeping accuracy using available time references
+    - Enh : Add some advanced controls to address super fast frame rates and frame tearing. Contact 
+            support@pixelcontroller if you think you need this.
+    
+Build 16 : 2022-xx-xx
 
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
