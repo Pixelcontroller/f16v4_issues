@@ -121,7 +121,13 @@ Build 15 : 2022-02-19
     - Enh : Add some advanced controls to address super fast frame rates and frame tearing. Contact 
             support@pixelcontroller if you think you need this.
     
-Build 16 : 2022-xx-xx
+Build 16 : 2022-03-06
+    - Enh : Add SJ1221 protocol support
+    - Enh : Show on OLED and web page the IP address that data was last received from.
+            If using priorities with multiple sources then it shows you the winning source.
+    - Enh : Add the ability to play a FSEQ locally (looped or not) when an input pin triggers
+
+Build 17 : 2022-xx-xx
 
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
