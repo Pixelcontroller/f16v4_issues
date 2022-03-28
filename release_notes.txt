@@ -127,7 +127,12 @@ Build 16 : 2022-03-06
             If using priorities with multiple sources then it shows you the winning source.
     - Enh : Add the ability to play a FSEQ locally (looped or not) when an input pin triggers
 
-Build 17 : 2022-xx-xx
+Build 17 : 2022-03-28
+    - Fix : Fix lag when large E1.31/Artnet universes are sent to the controller
+    - Fix : Start introducing changes to reduce need to force reload web when upgrading firmware
+    - Fix : Build prompt not clearing after upgrade
+
+Build 18 : 2022-xx-xx
 
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
