@@ -125,14 +125,26 @@ Build 16 : 2022-03-06
     - Enh : Add SJ1221 protocol support
     - Enh : Show on OLED and web page the IP address that data was last received from.
             If using priorities with multiple sources then it shows you the winning source.
-    - Enh : Add the ability to play a FSEQ locally (looped or not) when an input pin triggers
+    - Enh : Add the ability to play a FSEQ locally (looped or not) when an input pin triggers.
 
 Build 17 : 2022-03-28
-    - Fix : Fix lag when large E1.31/Artnet universes are sent to the controller
-    - Fix : Start introducing changes to reduce need to force reload web when upgrading firmware
-    - Fix : Build prompt not clearing after upgrade
+    - Fix : Fix lag when large E1.31/Artnet universes are sent to the controller.
+    - Fix : Start introducing changes to reduce need to force reload web when upgrading firmware.
+    - Fix : Build prompt not clearing after upgrade.
 
 Build 18 : 2022-xx-xx
+    - Fix : Audio conversion link broken.
+    - Fix : Help link broken.
+    - Fix : Record mode not working.
+    - Fix : Visualiser broken.
+    - Fix : Address a number of small UI behaviour anomalies.
+    - Fix : Date shows wrong year
+    - Enh : Enhance UI to be more responsive and thus useable on smaller devices.
+    - Enh : Make a number of small UI useability improvements.
+    - Enh : Add slow or incomplete network frame detection.
+    - Enh : When recording display the recording status on OLED.
+    - Enh : Reduce page caching time to limit issues when upgrading.
+
 
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
