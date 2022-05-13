@@ -146,8 +146,15 @@ Build 18 : 2022-05-01
     - Enh : When recording display the recording status on OLED.
     - Enh : Reduce page caching time to reduce frequency of issues when upgrading.
 
-Build 19 : 2022-xx-xx
+Build 19 : 2022-05-14
+    - Fix : FSEQ Player does not work if playing an audio file
+    - Fix : Lights dont turn off when stopping a playing sequence
+    - Fix : Improve handling of receipt of not all defined universes
+    - Enh : Increase maximum grouping to 100
+    - Enh : Animate the controller colour bar
 
+Build 20 : 2022-xx-xx
+    - Fix : Don't reset controller internal state when DHCP renew returns same IP address
 
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
