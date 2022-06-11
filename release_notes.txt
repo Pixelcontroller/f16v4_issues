@@ -153,8 +153,11 @@ Build 19 : 2022-05-14
     - Enh : Increase maximum grouping to 100
     - Enh : Animate the controller colour bar
 
-Build 20 : 2022-xx-xx
+Build 20 : 2022-06-11
     - Fix : Don't reset controller internal state when DHCP renew returns same IP address
+    - Fix : Looped playlists just keep playing the first step
+
+Build 21 : 2022-xx-xx
 
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
