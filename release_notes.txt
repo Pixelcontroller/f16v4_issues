@@ -173,7 +173,14 @@ Build 22 : 2022-10-05
     - Fix : Number and SR Number test modes flicker
     - Fix : Handle WAV files with INFO blocks
 
-Build 23 : 2022-xx-xx
+Build 23 : 2022-01-13
+    - Enh : Add support for the F48 NS
+    - Enh : Add a 0% brightness option allowing user to "turn off" a port without having to de-configure it
+    - Fix : Visualiser displaying incorrectly
+    - Fix : Rare issue on F16 where OLED stops displaying
+    - Fix : Only respond to FPP discovery if in a player mode
+    
+Build 24 : 2023-xx-xx
 
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
