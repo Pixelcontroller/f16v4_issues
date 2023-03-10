@@ -122,7 +122,7 @@ Build 15 : 2022-02-19
             support@pixelcontroller if you think you need this.
     
 Build 16 : 2022-03-06
-    - Enh : Add SJ1221 protocol support
+    - Enh : Add SJ1221 protocol support.
     - Enh : Show on OLED and web page the IP address that data was last received from.
             If using priorities with multiple sources then it shows you the winning source.
     - Enh : Add the ability to play a FSEQ locally (looped or not) when an input pin triggers.
@@ -138,8 +138,8 @@ Build 18 : 2022-05-01
     - Fix : Record mode not working.
     - Fix : Visualiser broken.
     - Fix : Address a number of small UI behaviour anomalies.
-    - Fix : Date shows wrong year
-    - Fix : Pixel output does not occur if first expected universe does not arrive
+    - Fix : Date shows wrong year.
+    - Fix : Pixel output does not occur if first expected universe does not arrive.
     - Enh : Enhance UI to be more responsive and thus useable on smaller devices.
     - Enh : Make a number of small UI useability improvements.
     - Enh : Add slow or incomplete network frame detection.
@@ -147,40 +147,47 @@ Build 18 : 2022-05-01
     - Enh : Reduce page caching time to reduce frequency of issues when upgrading.
 
 Build 19 : 2022-05-14
-    - Fix : FSEQ Player does not work if playing an audio file
-    - Fix : Lights dont turn off when stopping a playing sequence
-    - Fix : Improve handling of receipt of not all defined universes
-    - Enh : Increase maximum grouping to 100
-    - Enh : Animate the controller colour bar
+    - Fix : FSEQ Player does not work if playing an audio file.
+    - Fix : Lights dont turn off when stopping a playing sequence.
+    - Fix : Improve handling of receipt of not all defined universes.
+    - Enh : Increase maximum grouping to 100.
+    - Enh : Animate the controller colour bar.
 
 Build 20 : 2022-06-11
-    - Fix : Don't reset controller internal state when DHCP renew returns same IP address
-    - Fix : Looped playlists just keep playing the first step
+    - Fix : Don't reset controller internal state when DHCP renew returns same IP address.
+    - Fix : Looped playlists just keep playing the first step.
 
 Build 21 : 2022-08-22
-    - Fix : Audio only and pause playlist steps not showing duration on status page
-    - Fix : Can't save more than 5 schedules
-    - Fix : Advanced tab shows when it shouldnt when connected via wifi
-    - Fix : Tighten up clock driving for clocked pixels
-    - Fix : Add an advanced option to disable temperature monitoring (contact us if you want to use this)
+    - Fix : Audio only and pause playlist steps not showing duration on status page.
+    - Fix : Can't save more than 5 schedules.
+    - Fix : Advanced tab shows when it shouldnt when connected via wifi.
+    - Fix : Tighten up clock driving for clocked pixels.
+    - Fix : Add an advanced option to disable temperature monitoring (contact us if you want to use this).
     
 Build 22 : 2022-10-05
-    - Enh : Add ability to run DMX512P pixels directly from F48 or 2 smart remote ports on F16
-    - Enh : Add the ability in advanced settings to find tune pixel protocol speed for fussy pixels
-    - Enh : Add falcon monitor tool for Windows users - monitors controller power and temp on a chart
-            It can also export to a CSV file for analysis
-    - Fix : Fix temperature sensor 2 reads incorrect values
-    - Fix : Number and SR Number test modes flicker
-    - Fix : Handle WAV files with INFO blocks
+    - Enh : Add ability to run DMX512P pixels directly from F48 or 2 smart remote ports on F16.
+    - Enh : Add the ability in advanced settings to find tune pixel protocol speed for fussy pixels.
+    - Enh : Add falcon monitor tool for Windows users - monitors controller power and temp on a chart.
+            It can also export to a CSV file for analysis.
+    - Fix : Fix temperature sensor 2 reads incorrect values.
+    - Fix : Number and SR Number test modes flicker.
+    - Fix : Handle WAV files with INFO blocks.
 
 Build 23 : 2022-01-13
-    - Enh : Add support for the F48 NS
-    - Enh : Add a 0% brightness option allowing user to "turn off" a port without having to de-configure it
-    - Fix : Visualiser displaying incorrectly
-    - Fix : Rare issue on F16 where OLED stops displaying
-    - Fix : Only respond to FPP discovery if in a player mode
+    - Enh : Add support for the F48 NS.
+    - Enh : Add a 0% brightness option allowing user to "turn off" a port without having to de-configure it.
+    - Fix : Visualiser displaying incorrectly.
+    - Fix : Rare issue on F16 where OLED stops displaying.
+    - Fix : Only respond to FPP discovery if in a player mode.
     
-Build 24 : 2023-xx-xx
+Build 24 : 2023-03-10
+    - Enh : Add a Grand MA reset mode (hold select and up on power up).
+    - Fix : Implement improvements to reduce the frequency of frame tearing.
+	= Fix : Turn off by default network warnings as there are times when these are misleading. These can be enabled oin advanced settings.
+	- Fix : Serial test sends one less channel than it should.
+	- Fix : Prioritise correct pixel output when serial and pixel outputs share channels.
+
+Build 25 : 2023-xx-xx
 
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
