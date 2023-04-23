@@ -183,11 +183,14 @@ Build 23 : 2022-01-13
 Build 24 : 2023-03-10
     - Enh : Add a Grand MA reset mode (hold select and up on power up).
     - Fix : Implement improvements to reduce the frequency of frame tearing.
-	= Fix : Turn off by default network warnings as there are times when these are misleading. These can be enabled oin advanced settings.
+	- Fix : Turn off by default network warnings as there are times when these are misleading. These can be enabled oin advanced settings.
 	- Fix : Serial test sends one less channel than it should.
 	- Fix : Prioritise correct pixel output when serial and pixel outputs share channels.
 
-Build 25 : 2023-xx-xx
+Build 25 : 2023-04-23
+    - Enh : Always respond to FPP discovery so FPP can monitor controller
+	- Fix : Slowdown in pixel update if not all input universes are received.
+	- Fix : Potential divide by zero errors when downloading time
 
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
