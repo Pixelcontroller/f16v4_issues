@@ -192,5 +192,16 @@ Build 25 : 2023-04-23
 	- Fix : Slowdown in pixel update if not all input universes are received.
 	- Fix : Potential divide by zero errors when downloading time
 
+Build 26 : 2023-05-13
+    - Enh : Add ability to immediately record rather than triggering on a channel
+    - Fix : Fix controller interim crash on NS
+	- Fix : Fix hang on boot that can sometimes occur leaving the splash screen up
+	- Fix : Always start the FPP listener on the wired network
+	- Fix : Universe range not updating on OLED after config change until reboot
+	- Fix : Force NS to 100MBit Full Duplex
+	- Fix : NTP ping fails due to TTL being too small
+	- Fix : Fail to load JSON saved settings if Serial channel map is invalid
+	- Fix : Ping fails when controller is only connected via wifi
+
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
