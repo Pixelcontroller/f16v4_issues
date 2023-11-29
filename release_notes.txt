@@ -203,5 +203,43 @@ Build 26 : 2023-05-13
 	- Fix : Fail to load JSON saved settings if Serial channel map is invalid
 	- Fix : Ping fails when controller is only connected via wifi
 
+Build 27 : 2023-08-03
+	- Enh : Add SRxX V5 firmware update ability
+	- Enh : Add CMON multi controller monitoring
+	- Enh : Add temperature and voltage graphs to status page
+	- Enh : Add option to not send data when not receiving data - required so SRxXV5 receiver fuses turn off
+	- Fix : Significantly improve Wifi performance - about 3-4 times faster
+	- Fix : Help menu not working
+	- Fix : Address issues with board type not being returned correctly in FPP discovery
+	- Fix : Fix occasional hang after upload of configuration
+	- Fix : Input page incorrectly flags page as needing saving
+	- Fix : Fix occasional hang in NS controllers
+	- Fix : Always run the FPP listener so FPP can monitor the controller
+
+Build 28 : 2023-10-22
+	- Enh : V5 release
+	- Enh : Move temperature specific actions to advanced tab to simplify user experience
+	- Enh : Improve MP3 file conversion error messages
+	- Fix : Some wifi APIs time out
+	- Fix : Load settings from JSON file failing
+	- Fix : Speed up loading of available sequences/playlists on status page
+	- Fix : CMON/Visualiser/Pixel Types pages not working through FPP proxy
+	- Fix : Force OLED on if message displayed to the user
+	- Fix : Timezone change unnecessarily requires reboot
+	- Fix : Improve Wifi cache age
+
+Build 29 : 2023-11-05
+	- Enh : Common firmware release with V5 support
+	- Fix : Address some issues where ESP file system is not loading correctly when first flashed
+	- Fix : V5 : Address some issues with lag updating fuse status
+	
+Build 30 : 2023-11-29
+	- Enh : Add test mode where you can manually set the colour via web interface (3 and 4 channel pixels)
+	- Enh : Add CMY test pattern
+	- Fix : Playing sequence with audio from status page results in lights and audio getting out of sync
+	- Fix : When schedule ends lights do not turn off
+	- Fix : Nulls on smart receivers not being handled correctly
+	
+
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
