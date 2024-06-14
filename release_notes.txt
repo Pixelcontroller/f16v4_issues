@@ -240,6 +240,18 @@ Build 30 : 2023-11-29
 	- Fix : When schedule ends lights do not turn off
 	- Fix : Nulls on smart receivers not being handled correctly
 	
+Build 31 : 2024-04-09
+	- Enh : Add SM16825 pixel support
+	- Enh : Add a continuous play simple jukebox UI
+	- Enh : Add a rainbow test pattern
+	- Enh : Add a RGB chase fade test pattern
+	- Enh : Add ability to control the default test pattern
+    - Fix : Enhance FPP Sync allowing gradual adjustment which should minimise jumps.
+	- Fix : Fix download of debug log over wifi does not always working
+	- Fix : Dont process E1.31 packets with non zero start code
+	- Fix : All schedule dates back to 2000 so schedule can work even when no time is set
+	- Fix : Recorder mode sometimes produces invalid FSEQ files
+	- Fix : Add missing test patterns to input pins
 
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
