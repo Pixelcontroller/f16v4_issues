@@ -253,5 +253,14 @@ Build 31 : 2024-04-09
 	- Fix : Recorder mode sometimes produces invalid FSEQ files
 	- Fix : Add missing test patterns to input pins
 
+Build 32 : 2024-07-29
+	- Enh : Add a command playlist item
+	- Fix : Improve gamma tables
+	- Fix : Send FPP ping when first powered on
+	- Fix : Settings load not working from JSON file
+	- Fix : Reverse + Zig Zag on same string not supported
+
+Build 33 : 2024-xx-xx
+
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
