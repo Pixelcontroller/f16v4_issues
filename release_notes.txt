@@ -261,6 +261,17 @@ Build 32 : 2024-07-29
 	- Fix : Reverse + Zig Zag on same string not supported
 
 Build 33 : 2024-xx-xx
+	- Enh : Add an input action for next/prior/first playlist looped
+	- Enh : Add DMX input mode for low channel count -> large pixel count control
+	- Fix : Universe counter incorrect when multiple E1.31 rows defined
+	- Fix : Add advanced option to continually re-register for multicast
+	- Fix : Enable larger versions of SRxV5 firmware
+	- Fix : Off by 2 channels issue with Renard
+	- Fix : Improve performance of rainbow test pattern which makes controller sluggish
+	- Fix : Short audio files hand player
+	- Fix : Clash between schedule and continuous play jumps from sequence to sequence
+	- Fix : Improve time keeping when using NTP
+	- Fix : Occasional playback hang when updating time
 
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
