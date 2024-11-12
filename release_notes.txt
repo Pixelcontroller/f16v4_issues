@@ -263,6 +263,7 @@ Build 32 : 2024-07-29
 Build 33 : 2024-xx-xx
 	- Enh : Add an input action for next/prior/first playlist looped
 	- Enh : Add DMX input mode for low channel count -> large pixel count control
+	- Enh : Add player command to turn on/off test mode
 	- Fix : Universe counter incorrect when multiple E1.31 rows defined
 	- Fix : Add advanced option to continually re-register for multicast
 	- Fix : Enable larger versions of SRxV5 firmware
@@ -272,6 +273,10 @@ Build 33 : 2024-xx-xx
 	- Fix : Clash between schedule and continuous play jumps from sequence to sequence
 	- Fix : Improve time keeping when using NTP
 	- Fix : Occasional playback hang when updating time
+	- Fix : TM1814 pixels flicker
+	- Fix : some receiver flickering issues
+	- Fix : Wifi firmware upload not working
+	- Fix : Charts not working on Safari
 
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
