@@ -260,7 +260,7 @@ Build 32 : 2024-07-29
 	- Fix : Settings load not working from JSON file
 	- Fix : Reverse + Zig Zag on same string not supported
 
-Build 33 : 2024-xx-xx
+Build 33 : 2024-11-20
 	- Enh : Add an input action for next/prior/first playlist looped
 	- Enh : Add DMX input mode for low channel count -> large pixel count control
 	- Enh : Add player command to turn on/off test mode
@@ -273,7 +273,6 @@ Build 33 : 2024-xx-xx
 	- Fix : Clash between schedule and continuous play jumps from sequence to sequence
 	- Fix : Improve time keeping when using NTP
 	- Fix : Occasional playback hang when updating time
-	- Fix : TM1814 pixels flicker
 	- Fix : some receiver flickering issues
 	- Fix : Wifi firmware upload not working
 	- Fix : Charts not working on Safari
