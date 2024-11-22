@@ -277,5 +277,8 @@ Build 33 : 2024-11-20
 	- Fix : Wifi firmware upload not working
 	- Fix : Charts not working on Safari
 
+Build 34 : 2024-11-22
+	THERE ARE NO CHANGES IN THIS RELEASE FOR V4 BOARDS
+
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
