@@ -285,6 +285,14 @@ Build 35 : 2024-12-07
 
 Build 36 : 2024-12-08
 	- Fix : Address web UI broken by build 35
+
+Build 37 : 2025-02-09
+	- Fix : Add advanced option to disable multicast registration
+	- Fix : Firmware upload over ethernet not working
+	- Fix : Add an advanced option to work around controllers not receiving the first defined universe
+	- Fix : Address some minor web page issues on playlist commands and showing DMX stats
+	
+Build 38 : 20xx-xx-xx
 	
 *** If there is a fix in an unreleased build you believe would help fix an issue you are experiencing then reach out to us at 
 support@pixelcontroller.com and we will provide you a pre-release.    
