@@ -33,5 +33,9 @@ Verify all 3 jumpers next to the DMX RJ45 port are set to the right position.
 
 Install/Reinstall the latest V4 firmware.
 
+## TM1814 pixels flicker
+
+This definitely can happen if you have more pixels attached than the controller is driving so please make sure you are sending data to all pixels.
+If you have other issues contact us at support@pixelcontroller.com.
 
 
