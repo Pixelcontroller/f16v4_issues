@@ -19,7 +19,7 @@ The best fix for this is to factory reset the controller by applying power while
 The most common reasons for this are:
 
 - Applying 5V but having the voltage selector set to 12V.
-- Habing the External power switch set incorrectly.
+- Having the External power switch set incorrectly.
 
 ## Network Green/Amber Lights dont light when network is connected
 
